@@ -32,7 +32,7 @@ const Hero = () => {
   const settings = {
     dots: false,
     arrows: false,
-    // autoplay: true,
+    autoplay: true,
     autoplaySpeed: 3000,
     cssEase: "ease-in-out",
     pauseOnHover: false,
@@ -76,7 +76,7 @@ const Hero = () => {
                       <img
                         src={item.image}
                         alt={item.title}
-                        className="w-[300px] sm:w-[450px] h-[300px] sm:h-[450px] sm:scale-105 lg:scale-120 object-contain mx-auto drop-shadow-[-8px_4px_6px_rgba(0,0,0,0.4)] relative z-40 "
+                        className="w-[300px] sm:w-[450px] h-[300px] sm:h-[450px] sm:scale-105 lg:scale-120 object-contain mx-auto drop-shadow-[-8px_4px_6px_rgba(0,0,0,0.4)] relative z-40 pr-1 "
                       />
                     </div>
                   </div>
