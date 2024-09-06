@@ -15,13 +15,15 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 pb-20 pt-5">
           <div className="py-8 px-4">
             <a
-              data-aos="zoom-out"
               className="text-primary font-bold tracking-widest text-2xl uppercase sm:text-3xl"
               href="#"
             >
-              E-Shop
+              <p data-aos="zoom-out">E-Shop</p>
             </a>
-            <p className="text-gray-600 lg:pr-14 pt-3 dark:text-white/50">
+            <p
+              data-aos="zoom-out"
+              className="text-gray-600 lg:pr-14 pt-3 dark:text-white/50"
+            >
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis
               placeat consequatur, totam repudiandae quis tempore.
             </p>
