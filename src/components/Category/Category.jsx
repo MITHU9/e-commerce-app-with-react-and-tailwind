@@ -108,7 +108,7 @@ const Category = () => {
               data-aos-once="true"
               src={Image2}
               alt="earphone"
-              className="w-[320px] absolute -right-8 lg:top-10"
+              className="w-[320px] absolute -right-16 md:-right-8 lg:top-10"
             />
           </div>
 
@@ -158,7 +158,7 @@ const Category = () => {
               data-aos-once="true"
               src={Image3}
               alt="earphone"
-              className="w-[250px] absolute right-0 lg:bottom-10"
+              className="w-[250px] absolute -right-4 md:right-0 lg:bottom-10"
             />
           </div>
 
@@ -210,7 +210,7 @@ const Category = () => {
               data-aos-once="true"
               src={Image4}
               alt="earphone"
-              className="w-[250px] absolute bottom-10 lg:right-0"
+              className="w-[200px] md:w-[250px] absolute bottom-10 right-0 lg:right-0"
             />
           </div>
 

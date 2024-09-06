@@ -6,7 +6,7 @@ import img5 from "../../assets/brand/br-5.png";
 
 const Partner = () => {
   return (
-    <div className=" mt-16 py-4 bg-gray-200 dark:bg-gray-800">
+    <div className=" mt-16 py-4 bg-gray-200 dark:bg-gray-800 ">
       <div className="container ">
         <div
           data-aos="zoom-out"
