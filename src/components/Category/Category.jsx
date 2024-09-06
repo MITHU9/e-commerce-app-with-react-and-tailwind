@@ -10,9 +10,9 @@ const Category = () => {
   return (
     <div className="py-8">
       <div className="container">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* First Row */}
-          <div className="py-10 pl-5 bg-gradient-to-br from-black/90 to-black/70 text-white rounded-3xl relative h-[320px] flex items-end ">
+          <div className="py-10 pl-5 bg-gradient-to-br from-black/90 to-black/70 text-white rounded-3xl relative h-[320px] flex items-end">
             <div>
               <div className="mb-4">
                 <p className="mb-1 text-gray-400 ">Enjoy</p>
@@ -34,7 +34,7 @@ const Category = () => {
             />
           </div>
 
-          <div className="py-10 pl-5 bg-gradient-to-br from-brandYellow to-brandYellow/90 text-white rounded-3xl relative h-[320px] flex items-end ">
+          <div className="py-10 pl-5 bg-gradient-to-br from-brandYellow to-brandYellow/90 text-white rounded-3xl relative h-[320px] flex items-end">
             <div>
               <div className="mb-4">
                 <p className="mb-1 text-white ">Enjoy</p>
@@ -56,7 +56,7 @@ const Category = () => {
             />
           </div>
 
-          <div className="py-10 pl-5 bg-gradient-to-br from-primary to-primary/90 text-white rounded-3xl relative h-[320px] flex items-end col-span-2 ">
+          <div className="py-10 pl-5 bg-gradient-to-br from-primary to-primary/90 text-white rounded-3xl relative h-[320px] flex items-end md:col-span-2 ">
             <div>
               <div className="mb-4">
                 <p className="mb-1 text-white ">Enjoy</p>
@@ -80,7 +80,7 @@ const Category = () => {
 
           {/* Second Row */}
 
-          <div className="py-10 pl-5 bg-gradient-to-b from-gray-400 to-gray-200 text-white rounded-3xl relative h-[320px] flex items-end col-span-2 ">
+          <div className="py-10 pl-5 bg-gradient-to-b from-gray-400 to-gray-200 text-white rounded-3xl relative h-[320px] flex items-end  md:col-span-2">
             <div>
               <div className="mb-4">
                 <p className="mb-1 text-white ">Enjoy</p>
@@ -102,7 +102,7 @@ const Category = () => {
             />
           </div>
 
-          <div className="py-10 pl-5 bg-gradient-to-br from-brandGreen to-brandGreen/90 text-white rounded-3xl relative h-[320px] flex items-start ">
+          <div className="py-10 pl-5 bg-gradient-to-br from-brandGreen to-brandGreen/90 text-white rounded-3xl relative h-[320px] flex items-start">
             <div>
               <div className="mb-4">
                 <p className="mb-1 text-white ">Enjoy</p>
@@ -124,7 +124,7 @@ const Category = () => {
             />
           </div>
 
-          <div className="py-10 pl-5 bg-gradient-to-br from-brandBlue to-brandBlue/90 text-white rounded-3xl relative h-[320px] flex items-start ">
+          <div className="py-10 pl-5 bg-gradient-to-br from-brandBlue to-brandBlue/90 text-white rounded-3xl relative h-[320px] flex items-start">
             <div>
               <div className="mb-4">
                 <p className="mb-1 text-white ">Enjoy</p>

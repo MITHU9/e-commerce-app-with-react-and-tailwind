@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import Slider from "react-slick";
 import Image1 from "../../assets/hero/headphone.png";
 import Image2 from "../../assets/category/vr.png";
@@ -28,7 +29,7 @@ const heroSlide = [
   },
 ];
 
-const Hero = () => {
+const Hero = ({ handleOrderPopup }) => {
   const settings = {
     dots: false,
     arrows: false,
@@ -53,26 +54,54 @@ const Hero = () => {
               <div key={item.id}>
                 <div className="grid grid-cols-1 sm:grid-cols-2">
                   <div className="flex flex-col justify-center gap-4 sm:pl-3 pt-12 sm:pt-0 text-center sm:text-left order-2 sm:order-1 relative z-10">
-                    <h3 className="text-2xl sm:text-6xl lg:text-2xl font-bold">
+                    <h3
+                      data-aos="zoom-out"
+                      data-aos-duration="500"
+                      data-aos-once="true"
+                      data-aos-anchor-placement="top-center"
+                      className="text-2xl sm:text-6xl lg:text-2xl font-bold"
+                    >
                       {item.subtitle}
                     </h3>
-                    <h2 className="text-5xl sm:text-6xl lg:text-7xl font-bold">
+                    <h2
+                      data-aos="zoom-out"
+                      data-aos-duration="500"
+                      data-aos-once="true"
+                      data-aos-anchor-placement="top-center"
+                      className="text-5xl sm:text-6xl lg:text-7xl font-bold"
+                    >
                       {item.title}
                     </h2>
-                    <h1 className="text-5xl uppercase text-white dark:text-white/5 sm:text-[80px] md:text-[100px] xl:text-[150px] font-bold ">
+                    <h1
+                      data-aos="zoom-out"
+                      data-aos-duration="500"
+                      data-aos-once="true"
+                      data-aos-anchor-placement="top-center"
+                      className="text-5xl uppercase text-white dark:text-white/5 sm:text-[80px] md:text-[100px] xl:text-[150px] font-bold "
+                    >
                       {item.title2}
                     </h1>
-                    <div>
+                    <div
+                      data-aos="fade-up"
+                      data-aos-offset="0"
+                      data-aos-duration="500"
+                      data-aos-delay="300"
+                    >
                       <Button
                         text="Shop By Category"
                         bgColor="bg-primary"
                         textColor="text-white"
+                        handleClick={handleOrderPopup}
                       />
                     </div>
                   </div>
 
                   <div className="order-1 sm:order-2 ">
-                    <div>
+                    <div
+                      data-aos="zoom-in"
+                      data-aos-once="true"
+                      className="z-10 relative"
+                    >
                       <img
                         src={item.image}
                         alt={item.title}
